@@ -11,8 +11,10 @@ jobs:
     runs-on: ubuntu-lastest
     steps:
     - uses: actions/checkout@v2
+
     - name: Run a one-line script
       run: echo Hellow, world!
+      
     - name: Run a multi-line script
       run: |
         echo Add other actions to build,
